@@ -1,0 +1,27 @@
+{
+  "name": "urlparams3000",
+  "version": "0.0.1",
+  "description": "URL Search parameters made easy",
+  "license": "MIT",
+  "authors": [
+    "Ezekiel Aquino <ezekielaquino@gmail.com>"
+  ],
+  "repository": "ezekielaquino/URLParams3000",
+  "keywords": [
+    "url",
+    "search params",
+    "params",
+    "search"
+  ],
+  "scripts": {
+    "build": "microbundle --target=browser --strict --name=URLParams3000",
+    "dev": "microbundle watch"
+  },
+  "source": "src/index.js",
+  "main": "dist/urlparams3000.js",
+  "module": "dist/urlparams3000.es.js",
+  "umd:main": "dist/urlparams3000.umd.js",
+  "dependencies": {
+    "url-polyfill": "^1.0.13"
+  }
+}
